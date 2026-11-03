@@ -48,9 +48,10 @@ The chatbot uses **TF-IDF vectorization** and **Cosine Similarity** to compare u
 
 ```text
 FAQ-Chatbot/
-│
+│── requirement.txt
 ├── faq_chatbot.py
 └── README.md
+
 ```
 
 **File descriptions:**
@@ -88,7 +89,7 @@ Activate it on Windows PowerShell:
 
 ### 4. Install Dependencies
 
-Create a file named `requirements.txt` and add:
+Create a file named `requirement.txt` and add:
 
 ```text
 streamlit
