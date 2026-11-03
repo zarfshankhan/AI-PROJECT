@@ -234,6 +234,10 @@ Confirm that Streamlit has started successfully and open the local address shown
 - Provide convenient copy and speech functionality.
 - Reduce unnecessary translation requests through caching.
 
+## APP View Link
+
+http://localhost:8502/
+
 ## 👩‍💻 Author
 
 **Zarfshan  Attiq Khan**
