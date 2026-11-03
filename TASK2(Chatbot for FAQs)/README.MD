@@ -58,6 +58,7 @@ FAQ-Chatbot/
 
 - `faq_chatbot.py`: Contains the chatbot logic, FAQ dataset, NLP preprocessing, similarity matching, and Streamlit interface.
 - `README.md`: Provides project documentation and installation instructions.
+- `requirement.txt` : Install the required libaries 
 
 ## ⚙️ Installation and Setup
 
@@ -105,7 +106,7 @@ python -m pip install -r requirements.txt
 
 ### 5. Run the Application
 
-Make sure your Python file is named `app.py`. Run:
+Make sure your Python file is named `faq_chatbot.py`. Run:
 
 ```bash
 python -m streamlit run app.py
