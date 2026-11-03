@@ -6,6 +6,7 @@ import html
 import time
 import asyncio
 
+
 # =====================================
 # PAGE CONFIGURATION
 # =====================================
@@ -15,31 +16,34 @@ st.set_page_config(
     layout="centered"
 )
 
+
 # =====================================
-# CACHED TRANSLATION FUNCTION
+# CACHED TRANSLATION FUNCTION 
 # =====================================
+
+async def async_translate(text, source_code, target_code):
+
+    async with Translator() as translator:
+
+        result = await translator.translate(
+            text,
+            src=source_code,
+            dest=target_code
+        )
+
+        if not result or not result.text:
+            raise ValueError("Translation result is empty.")
+
+        return result.text
+
+
 @st.cache_data(ttl=86400, max_entries=200, show_spinner=False)
 def translate_text(text, source_code, target_code):
-    """Cache successful translations for 24 hours."""
-    # googletrans needs asyncio in some environments
-    try:
-        loop = asyncio.get_event_loop()
-    except RuntimeError:
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
 
-    translator = Translator()
-    
-    # If source is 'auto', googletrans uses 'auto'
-    if source_code == "auto":
-        source_code = "auto"
+    return asyncio.run(
+        async_translate(text, source_code, target_code)
+    )
 
-    result = translator.translate(text, src=source_code, dest=target_code)
-
-    if not result or not result.text:
-        raise ValueError("No translation was returned.")
-
-    return result.text
 
 # =====================================
 # CUSTOM DESIGN
