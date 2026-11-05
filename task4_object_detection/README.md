@@ -305,8 +305,6 @@ This project demonstrates practical experience with:
 
 **Zarfshan Attiq Khan**
 
-GitHub: Add your GitHub profile link here.
+## App View
 
-## 📄 License
-
-This project is intended for educational and learning purposes. Add an appropriate open-source license if you plan to distribute the project publicly.
+https://zarfshankhan-ai-project-task4-object-detectionapp-ebkift.streamlit.app/
