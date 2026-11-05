@@ -1,2 +1,0 @@
-streamlit
-googletrans==4.0.2
