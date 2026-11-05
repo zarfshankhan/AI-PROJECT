@@ -241,5 +241,5 @@ Through this project, you can learn:
 **Zarfshan  Attiq Khan**
 
 ## APP VIEW LINK
-http://localhost:8501/
+https://ai-project-cpzyijrk9ycgphyauduyec.streamlit.app/
 
