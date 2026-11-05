@@ -49,15 +49,15 @@ This project demonstrates how Deep Learning and Artificial Intelligence can be a
 
 ```text
 AI-Music-Generator/
-│
-├── app.py
+│── midi_songs
+├── music_generator.py
 ├── requirements.txt
 └── README.md
 ```
 
 ### File Description
 
-- **`app.py`** — Contains the Streamlit application, MIDI processing, LSTM model, training process, and music generation logic.
+- **`music_generator`** — Contains the Streamlit application, MIDI processing, LSTM model, training process, and music generation logic.
 - **`requirements.txt`** — Lists the Python libraries required to run the application.
 - **`README.md`** — Provides project documentation and setup instructions.
 
