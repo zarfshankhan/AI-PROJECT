@@ -236,7 +236,7 @@ Confirm that Streamlit has started successfully and open the local address shown
 
 ## APP View Link
 
-http://localhost:8502/
+https://ai-project-tkzda8jwpp5roja8bhy5tw.streamlit.app/
 
 ## 👩‍💻 Author
 
