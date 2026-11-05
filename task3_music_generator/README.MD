@@ -290,7 +290,11 @@ This project helps demonstrate:
 
 ## 👩‍💻 Author
 
-**Zarfshan  ATTIQ Khan**
+**Zarfshan Attiq Khan**
 
-GitHub: Add your GitHub profile link here.
+## APP View
+
+https://zarfshankhan-ai-pro-task3-music-generatormusic-generator-dcu6p1.streamlit.app/
+
+
 
